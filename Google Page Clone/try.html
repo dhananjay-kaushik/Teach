@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Positioning</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>CSS Positioning</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
 
-      body {
-        height: 150vh;
-        width: 100vw;
-        background-color: blue;
-      }
+			body {
+				height: 150vh;
+				width: 100vw;
+				background-color: blue;
+			}
 
-      .container {
-        background-color: pink;
-        height: 500px;
-        width: 500px;
-        position: relative;
-        left: 60px;
-        top: 60px;
-      }
+			.container {
+				background-color: pink;
+				height: 500px;
+				width: 500px;
+				position: relative;
+				left: 60px;
+				top: 60px;
+			}
 
-      .item {
-        background-color: aqua;
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        /* position: relative;
+			.item {
+				background-color: aqua;
+				height: 200px;
+				width: 200px;
+				position: absolute;
+				/* position: relative;
         left: 20px;
         top: 20px; */
-      }
-      .item-1 {
-        z-index: 1;
-        left: 10px;
-      }
-      .item-2 {
-        background-color: bisque;
-        z-index: 2;
-        left: 120px;
-      }
-      .item-3 {
-        background-color: black;
-        z-index: 3;
-        left: 230px;
-        /* position: sticky;
+			}
+			.item-1 {
+				z-index: 1;
+				left: 10px;
+			}
+			.item-2 {
+				background-color: bisque;
+				z-index: 2;
+				left: 120px;
+			}
+			.item-3 {
+				background-color: black;
+				z-index: 3;
+				left: 230px;
+				/* position: sticky;
         top: 10px; */
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="item item-1"></div>
-      <div class="item item-2"></div>
-      <div class="item item-3"></div>
-    </div>
-  </body>
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item item-1"></div>
+			<div class="item item-2"></div>
+			<div class="item item-3"></div>
+		</div>
+	</body>
 </html>
