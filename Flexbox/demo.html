@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				width: 100vw;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+			}
+
+			header {
+				/* flex: 1; */
+				height: 60px;
+				width: 100%;
+				background-color: black;
+				display: flex;
+				justify-content: space-between;
+				/* gap: 80px; */
+			}
+
+			header > .links {
+				width: 200px;
+				height: 100%;
+				background-color: aqua;
+			}
+
+			header > .links-2 {
+				background-color: aquamarine;
+			}
+
+			main {
+				flex: 1;
+				width: 100%;
+				background-color: pink;
+			}
+
+			footer {
+				/* flex: 1; */
+				height: 60px;
+				width: 100%;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="links links-1"></div>
+			<div class="links links-2"></div>
+		</header>
+		<main></main>
+		<footer></footer>
+	</body>
+</html>
